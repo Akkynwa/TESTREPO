@@ -1,0 +1,76 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Poppins", sans-serif; */
+  text-decoration: none;
+  border: none;
+}
+
+@font-face {
+  font-family: 'noyhr';
+  src: local('noyhr'), url(./font/noyr/NoyhR-Regular.ttf) format('truetype');
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --orange: #fbae68;
+  --orange-hover: #f6c79c;
+  --white: #ffffff;
+  --gray200: #707070;
+  --gray300: #787878;
+  --gray400: #434343;
+  --blueish: #eff6ff;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  color: var(--color-gray200);
+}
+
+header,
+main,
+footer {
+  margin-inline: 6rem;
+}
+
+section {
+  padding: 0 6rem;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--gray200);
+}
+
+.button {
+  background-color: var(--orange);
+  color: var(--white);
+  width: fit-content;
+  padding: 0.6rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: var(--orange-hover);
+}
+
+.padding {
+  padding: 5rem;
+}

@@ -1,0 +1,107 @@
+
+.login {
+  font-family: noyhr, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  height: 100vh;
+  /* font-family:cursive; */
+  background-color: #EFF6FF;
+  color: #434343;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  height: 25px;
+  width: 250px;
+  border: none;
+  background-color:#EFF6FF;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 11px;
+  letter-spacing: 0.1px;
+  outline: none;
+}
+
+button[type="submit"] {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 9px;
+  font-weight: 800;
+  background: #fbae68;
+  border: 1px solid #fbae68;
+  color: #fff;
+  padding: 8px 45px;
+  border: none;
+  border-radius: 3px;
+}
+
+button[type="submit"]:hover {
+  background: #434343;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list-container {
+  display: flex;
+}
+.input1{
+  display: grid;
+  column-gap: 100px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.input2{
+align-items: center;
+align-content: center;
+margin:auto 15rem;
+justify-content: center;
+}
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.header-desc{
+  font-size: 17px;
+  margin-bottom: 3px;
+}
+.body-desc{
+  font-size: 13px;
+  text-align: center;
+  padding: 2px;
+  
+}
+.body-desc1{
+  font-size: 13px;
+}
+.text-tick{
+  font-weight: 700;
+  cursor: pointer;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin: 7px;
+}
+form label{
+  font-size: 15px;
+  color: #434343;
+}
